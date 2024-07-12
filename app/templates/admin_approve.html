@@ -1,0 +1,48 @@
+{% extends "dashboard_base.html" %}
+{% block content %}
+
+<div class="bg-white p-4 rounded-lg shadow">
+    <h2 class="text-2xl font-bold mb-4">Pending User Approvals</h2>
+    <table class="w-full table-auto">
+        <thead>
+            <tr class="bg-gray-200">
+                <th class="px-4 py-2">Employee</th>
+                <th class="px-4 py-2">Department</th>
+                <th class="px-4 py-2">Position</th>
+                <th class="px-4 py-2">Hire Date</th>
+                <th class="px-4 py-2">Actions</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for user in unverified_users %}
+            <tr class="border-b">
+                <td class="px-4 py-2">
+                    <div class="flex items-center">
+                        {% if user.profile_picture %}
+                        <img class="w-10 h-10 rounded-full mr-4" src="{{ user.profile_picture.url }}" alt="Avatar">
+                        {% else %}
+                        <img class="w-10 h-10 rounded-full mr-4" src="https://via.placeholder.com/40" alt="Avatar">
+                        {% endif %}
+                        <span>{{ user.name }}</span>
+                    </div>
+                </td>
+                <td class="px-4 py-2">{{ user.department.name }}</td>
+                <td class="px-4 py-2">{{ user.position.name }}</td>
+                <td class="px-4 py-2">{{ user.hire_date }}</td>
+                <td class="px-4 py-2">
+                    <form action="{% url 'approve_user' user.id %}" method="post" style="display:inline;">
+                        {% csrf_token %}
+                        <button class="bg-green-500 text-white px-4 py-2 rounded mr-2">Approve</button>
+                    </form>
+                    <form action="{% url 'reject_user' user.id %}" method="post" style="display:inline;">
+                        {% csrf_token %}
+                        <button class="bg-red-500 text-white px-4 py-2 rounded">Reject</button>
+                    </form>
+                </td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+{% endblock content %}

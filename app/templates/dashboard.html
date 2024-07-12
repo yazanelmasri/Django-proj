@@ -1,0 +1,37 @@
+{% extends "dashboard_base.html" %}
+{% block content %}
+  
+<div class="bg-white p-4 rounded-lg shadow">
+    <h2 class="text-2xl font-bold mb-4">Verified Users</h2>
+    <table class="w-full table-auto">
+        <thead>
+            <tr class="bg-gray-200">
+                <th class="px-4 py-2">Employee</th>
+                <th class="px-4 py-2">Department</th>
+                <th class="px-4 py-2">Position</th>
+                <th class="px-4 py-2">Hire Date</th>
+            </tr>
+        </thead>
+        <tbody>
+            {% for user in verified_users %}
+            <tr class="border-b">
+                <td class="px-4 py-2">
+                    <div class="flex items-center">
+                        {% if user.profile_picture %}
+                        <img class="w-10 h-10 rounded-full mr-4" src="{{ user.profile_picture.url}}" alt="Avatar">
+                        {% else %}
+                        missing
+                        {% endif %}
+                        <span>{{ user.name }}</span>
+                    </div>
+                </td>
+                <td class="px-4 py-2">{{ user.department.name }}</td>
+                <td class="px-4 py-2">{{ user.position.title }}</td>
+                <td class="px-4 py-2">{{ user.hire_date }}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+
+{% endblock content %}

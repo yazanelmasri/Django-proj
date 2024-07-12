@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Update Profile</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <div class="flex items-center justify-center min-h-screen">
+        <div class="bg-white p-8 rounded-lg shadow-lg w-1/3">
+            <h1 class="text-2xl font-bold mb-4">Update Profile</h1>
+            <form method="post" enctype="multipart/form-data">
+                {% csrf_token %}
+                <div class="mb-4">
+                    <label for="name" class="block text-gray-700">Name:</label>
+                    <input type="text" id="name" name="name" value="{{ profile.name }}" class="w-full px-3 py-2 border rounded">
+                </div>
+                <div class="mb-4">
+                    <label for="position" class="block text-gray-700">Position:</label>
+                    <select id="position" name="position" class="w-full px-3 py-2 border rounded">
+                        {% for position in positions %}
+                            <option value="{{ position.id }}" {% if position.id == profile.position.id %}selected{% endif %}>{{ position.title }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="mb-4">
+                    <label for="department" class="block text-gray-700">Department:</label>
+                    <select id="department" name="department" class="w-full px-3 py-2 border rounded">
+                        {% for department in departments %}
+                            <option value="{{ department.id }}" {% if department.id == profile.department.id %}selected{% endif %}>{{ department.name }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="mb-4">
+                    <label for="salary" class="block text-gray-700">Salary:</label>
+                    <input type="text" id="salary" name="salary" value="{{ profile.salary }}" class="w-full px-3 py-2 border rounded">
+                </div>
+                <div class="mb-4">
+                    <label for="hire_date" class="block text-gray-700">Hire Date:</label>
+                    <input type="date" id="hire_date" name="hire_date" value="{{ profile.hire_date }}" class="w-full px-3 py-2 border rounded">
+                </div>
+                <div class="mb-4">
+                    <label for="profile_picture" class="block text-gray-700">Profile Picture:</label>
+                    <input type="file" id="profile_picture" name="profile_picture" class="w-full px-3 py-2 border rounded">
+                    {% if profile.profile_picture %}
+                        <img src="{{ profile.profile_picture.url }}" alt="Profile Picture" class="mt-2 w-24 h-24 rounded-full">
+                    {% endif %}
+                </div>
+                <div class="flex justify-end">
+                    <button type="submit" class="bg-blue-500 text-white py-2 px-4 rounded hover:bg-blue-600">Save Changes</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
