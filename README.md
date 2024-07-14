@@ -60,17 +60,17 @@ Daisy has over 10 years of experience in human resources and is focused on impro
 
 ## Wireframe & Initial Design:
 
-<img src="media/profile_pictures/wireframe1.png" alt="Apex Responsive" width="600">
+<img src="media/profile_pictures/wireframe1.png" alt="Wireframe 1" width="600">
 
-<img src="media/profile_pictures/wireframe2.png" alt="Apex Responsive" width="600">
+<img src="media/profile_pictures/wireframe2.png" alt="Wireframe 2" width="600">
 
-<img src="media/profile_pictures/wireframe3.png" alt="Apex Responsive" width="600">
+<img src="media/profile_pictures/wireframe3.png" alt="Wireframe 3" width="600">
 
 
 ## Agile:
 This project was created using Agile principles via a projectboard on Github. This is the first time I have implemented Agile as an individual developer. However, creating user stories and identifying accepterance criteria acted as a roadmap to target the various features and functionalities of the application. It helped me stay on track and reduced distractions.
 
-<img src="media/profile_pictures/kanbanboard.png" alt="Apex Responsive" width="600">
+<img src="media/profile_pictures/kanbanboard.png" alt="Kanban Board" width="600">
 
 
 # Design Choices:
@@ -89,7 +89,7 @@ Purple - Footer
 
 #### Home Page:
 
-<img src="media/profile_pictures/home.png" alt="Apex Responsive" width="600">
+<img src="media/profile_pictures/home.png" alt="Home" width="600">
 
 The landing page provides an introduction to the website with a register button encouraging new users to sign up. Signing up and logging in allows them access the dashboard and to edit their details.
  
@@ -98,38 +98,38 @@ The landing page provides an introduction to the website with a register button 
 
 #### Login:
 
-<img src="media/profile_pictures/login.png" alt="Apex Responsive" width="600">
+<img src="media/profile_pictures/login.png" alt="Login" width="600">
 
 
 #### Register/Sign Up:
 
-<img src="media/profile_pictures/signup.png" alt="Apex Responsive" width="600">
+<img src="media/profile_pictures/signup.png" alt="Sign Up" width="600">
 
 
 #### Admin Control:
 
-<img src="media/profile_pictures/admincontrol.png" alt="Apex Responsive" width="600">
+<img src="media/profile_pictures/admincontrol.png" alt="Admin Control" width="600">
 
 
 #### Dashboard:
 
-<img src="media/profile_pictures/dashboard.png" alt="Apex Responsive" width="600">
+<img src="media/profile_pictures/dashboard.png" alt="Dashboard" width="600">
 
 
 #### User Profile:
 
-<img src="media/profile_pictures/userprofile.png" alt="Apex Responsive" width="600">
+<img src="media/profile_pictures/userprofile.png" alt="User Profile" width="600">
 
 
 #### Admin Verification:
 
-<img src="media/profile_pictures/adminverification.png" alt="Apex Responsive" width="600">
+<img src="media/profile_pictures/adminverification.png" alt="Admin Verification" width="600">
 
 
 
 # Database Diagram
 
-
+<img src="media/profile_pictures/diagram.png" alt="Diagram" width="600">
 
 # Data Models Used
 
@@ -156,15 +156,15 @@ The landing page provides an introduction to the website with a register button 
 
 #### Google Chrome
 
-<img src="media/profile_pictures/googlechrome.png" alt="Apex Responsive" width="600">
+<img src="media/profile_pictures/googlechrome.png" alt="Google Chrome" width="600">
 
 #### Firefox
 
-<img src="media/profile_pictures/firefox.png" alt="Apex Responsive" width="600">
+<img src="media/profile_pictures/firefox.png" alt="Firefox" width="600">
 
 #### Safari (Phone)
 
-<img src="media/profile_pictures/phone.jpg" alt="Apex Responsive" width="600">
+<img src="media/profile_pictures/phone.jpg" alt="Safari" width="600">
 
 
 
