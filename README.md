@@ -23,36 +23,37 @@ Daisy has over 10 years of experience in human resources and is focused on impro
 
 
 ## User Stories:
-Onboarding New Employees:
 
-* Onboarding New Employees:
+
+* Onboarding New Employees
+
 
 * As an HR Manager, I want to automate the onboarding process, so that new hires can complete necessary paperwork and training efficiently.
-Tracking Attendance:
+
 
 * As a Department Supervisor, I want to track employee attendance in real-time, so that I can manage schedules and assess productivity.
-Performance Reviews:
+
 
 * As an HR Manager, I want to set up a structured performance review process, so that employee evaluations are consistent and objective.
-Self-Service Portal:
+
 
 * As an Employee, I want to access my personal information and update my details through a self-service portal, so that I can manage my data easily.
-Leave Requests:
+
 
 * As an Employee, I want to submit leave requests online, so that I can streamline the approval process without paperwork delays.
-Generating Reports:
+
 
 * As a CFO, I want to generate payroll and compliance reports easily, so that I can ensure accurate financial planning and regulatory adherence.
-Managing Employee Training:
+
 
 * As a Learning and Development Manager, I want to track employee training progress, so that I can identify skill gaps and plan further development.
-Employee Feedback:
+
 
 * As a Department Supervisor, I want to collect real-time feedback from my team, so that I can address concerns and improve team dynamics.
-Data Security:
+
 
 * As an IT Administrator, I want to implement role-based access controls, so that sensitive employee information is protected from unauthorized access.
-Recruitment Management:
+
 
 * As a Recruiter, I want to manage job postings and track applicant statuses, so that I can streamline the recruitment process and fill positions faster.
 
@@ -211,7 +212,7 @@ Railway is an excellent and straight forward hastle-free backend deployment tool
 All the bugs that occured during the creation of this application have been resolved.
 
 
-# Credit: 
+# Credits: 
 
 * Although I used the django blog resources provided on the LMS, I also received alot of additional clarification by following along with django projects on YouTube. One of the best vidoes I found helpful was : https://www.youtube.com/watch?v=rHux0gMZ3Eg&t=160s
 
