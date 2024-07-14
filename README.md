@@ -92,6 +92,8 @@ Purple - Footer
 
 The landing page provides an introduction to the website with a register button encouraging new users to sign up. Signing up and logging in allows them access the dashboard and to edit their details.
  
+# Features
+
 
 #### Login:
 
@@ -101,3 +103,23 @@ The landing page provides an introduction to the website with a register button 
 #### Register/Sign Up:
 
 <img src="media/profile_pictures/signup.png" alt="Apex Responsive" width="600">
+
+
+#### Admin Control:
+
+<img src="media/profile_pictures/admincontrol.png" alt="Apex Responsive" width="600">
+
+
+#### Dashboard:
+
+<img src="media/profile_pictures/dashboard" alt="Apex Responsive" width="600">
+
+
+#### User Profile:
+
+<img src="media/profile_pictures/userprofile.png" alt="Apex Responsive" width="600">
+
+
+#### Admin Verification:
+
+<img src="media/profile_pictures/adminverification.png" alt="Apex Responsive" width="600">
