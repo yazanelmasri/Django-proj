@@ -70,3 +70,19 @@ Recruitment Management:
 This project was created using Agile principles via a projectboard on Github. This is the first time I have implemented Agile as an individual developer. However, creating user stories and identifying accepterance criteria acted as a roadmap to target the various features and functionalities of the application. It helped me stay on track and reduced distractions.
 
 <img src="media/profile_pictures/kanbanboard.png" alt="Apex Responsive" width="600">
+
+
+# Design Choices:
+
+## Colour scheme:
+
+Purple - Header
+
+White & Yellow - Buttons
+
+Purple - Footer
+
+## Typography:
+ The following fonts were chosen for a clean and modern look that is both readable and minimal.
+
+ 
