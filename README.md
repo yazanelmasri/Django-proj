@@ -112,7 +112,7 @@ The landing page provides an introduction to the website with a register button 
 
 #### Dashboard:
 
-<img src="media/profile_pictures/dashboard" alt="Apex Responsive" width="600">
+<img src="media/profile_pictures/dashboard.png" alt="Apex Responsive" width="600">
 
 
 #### User Profile:
