@@ -149,7 +149,23 @@ The landing page provides an introduction to the website with a register button 
 
 
 
-# Validation
+# Responsiveness
+
+#### Browsers
+
+#### Google Chrome
+
+<img src="media/profile_pictures/googlechrome.png" alt="Apex Responsive" width="600">
+
+#### Firefox
+
+<img src="media/profile_pictures/firefox.png" alt="Apex Responsive" width="600">
+
+#### Safari (Phone)
+
+<img src="media/profile_pictures/phone.png" alt="Apex Responsive" width="600">
+
+
 
 
 
