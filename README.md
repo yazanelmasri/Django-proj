@@ -85,4 +85,19 @@ Purple - Footer
 ## Typography:
  The following fonts were chosen for a clean and modern look that is both readable and minimal.
 
+
+#### Home Page:
+
+<img src="media/profile_pictures/home.png" alt="Apex Responsive" width="600">
+
+The landing page provides an introduction to the website with a register button encouraging new users to sign up. Signing up and logging in allows them access the dashboard and to edit their details.
  
+
+#### Login:
+
+<img src="media/profile_pictures/login.png" alt="Apex Responsive" width="600">
+
+
+#### Register/Sign Up:
+
+<img src="media/profile_pictures/signup.png" alt="Apex Responsive" width="600">
