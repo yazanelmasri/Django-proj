@@ -167,5 +167,58 @@ The landing page provides an introduction to the website with a register button 
 
 
 
+# Links
+
+#### Deployment
+https://django-proj-production.up.railway.app/
+
+#### Github Repository
+https://github.com/yazanelmasri/Employee-Management-System
+
+#### Kanban Board
+https://github.com/users/yazanelmasri/projects/5
+
+
+# Tools & Technologies
+
+* Python used as the back-end programming language.
+* Git used for version control. (git add, git commit, git push)
+* GitHub used for secure online code storage.
+* GitHub Pages used for hosting the deployed front-end site.
+* Gitpod used as a cloud-based IDE for development.
+* Gitpod used for Agile management.
+* Tailwind used as the front-end HTML/CSS framework for modern responsiveness and pre-built components.
+* SQLite3 used as the Postgres database.
+* Railway used for deploying the project.
+* Cloudinary used for online static file storage.
+* Balsamiq used for collaborative design and prototyping(wireframes).
+
+
+
+# Languages
+
+Front End: HTML/Tailwind
+Back End: Python/Django
+
+
+# Deployment
+
+Railway is an excellent and straight forward hastle-free backend deployment tool that I used to deploy my project.
+
+
+# Bugs
+
+All the bugs that occured during the creation of this application have been resolved.
+
+
+# Credit: 
+
+* Although I used the django blog resources provided on the LMS, I also received alot of additional clarification by following along with django projects on YouTube. One of the best vidoes I found helpful was : https://www.youtube.com/watch?v=rHux0gMZ3Eg&t=160s
+
+* Stack Overflow was used to solve any smaller bugs and further clarification on errors I was receiving in the terminal.
+
+* A special thanks to all the Code Academy tutors and managers for their continuous support throughout the course.
+
+* The design and details were taken from the different management system websites.
 
 
