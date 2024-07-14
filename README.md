@@ -55,3 +55,12 @@ Data Security:
 Recruitment Management:
 
 * As a Recruiter, I want to manage job postings and track applicant statuses, so that I can streamline the recruitment process and fill positions faster.
+
+
+## Wireframe & Initial Design:
+
+<img src="media/profile_pictures/wireframe1.png" alt="Apex Responsive" width="600">
+
+<img src="media/profile_pictures/wireframe2.png" alt="Apex Responsive" width="600">
+
+<img src="media/profile_pictures/wireframe3.png" alt="Apex Responsive" width="600">
