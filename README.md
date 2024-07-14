@@ -123,3 +123,33 @@ The landing page provides an introduction to the website with a register button 
 #### Admin Verification:
 
 <img src="media/profile_pictures/adminverification.png" alt="Apex Responsive" width="600">
+
+
+
+# Database Diagram
+
+
+
+# Data Models Used
+
+#### OneToOneField
+
+#### CharField
+
+#### ForeignKey
+
+#### DecimalField
+
+#### DateField
+
+#### ImageField
+
+#### BooleanField
+
+
+
+
+# Validation
+
+
+
