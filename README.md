@@ -163,7 +163,7 @@ The landing page provides an introduction to the website with a register button 
 
 #### Safari (Phone)
 
-<img src="media/profile_pictures/phone.png" alt="Apex Responsive" width="600">
+<img src="media/profile_pictures/phone.jpg" alt="Apex Responsive" width="600">
 
 
 
