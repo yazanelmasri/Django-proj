@@ -149,6 +149,12 @@ The landing page provides an introduction to the website with a register button 
 
 
 
+# Validation
+
+<img src="media/profile_pictures/test1.png" alt="HTML Testing" width="600">
+<img src="media/profile_pictures/test2.png" alt="Python Testing" width="600">
+
+
 
 # Responsiveness
 
