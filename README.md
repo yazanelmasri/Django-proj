@@ -198,7 +198,7 @@ https://github.com/users/yazanelmasri/projects/5
 
 # Languages
 
-* Front End: HTML/Tailwind
+* Front End: HTML,CSS/Tailwind
 * Back End: Python/Django
 
 
